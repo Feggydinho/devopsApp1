@@ -1,0 +1,10 @@
+name: My First CI
+on: [push]
+
+jobs:
+ hello from the other side:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "Hello, CI/CD World!"
+   - run: echo "Hello number 2 from fega"
+   - run: echo "We are finished for now"
